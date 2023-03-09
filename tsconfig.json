@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "es2020",
+        "target": "es2017",
+        "jsx": "react-jsx",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "strict": true,
+        "rootDir": ".",
+        "resolveJsonModule": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "./src/main.tsx"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.d.ts"
+    ]
+}
